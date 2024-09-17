@@ -3,7 +3,7 @@ let jsonData = [];
 
 function fetchExcelFile() {
     // Fetch the Excel file from the public folder
-    fetch('https://github.com/vikaslokhande2004/marksheetDownloader/Book1.xlsx')
+    fetch('Book1.xlsx')
         .then(response => response.arrayBuffer())
         .then(data => {
             // Parse the Excel file
