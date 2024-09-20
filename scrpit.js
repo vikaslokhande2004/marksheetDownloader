@@ -8,7 +8,7 @@ function fetchExcelFile() {
         .then(data => {
             // Parse the Excel file
             const workbook = XLSX.read(data, { type: 'array' });
-            const firstSheetName = workbook.SheetNames[0]; // Get the first sheet name
+            const firstSheetName = workbook.SheetNames[0]; // Get the first sheet
             const worksheet = workbook.Sheets[firstSheetName]; // Get the sheet data
             jsonData = XLSX.utils.sheet_to_json(worksheet); // Convert to JSON
 
