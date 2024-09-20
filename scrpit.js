@@ -520,7 +520,7 @@ function Sgpa(SGPA){
 function downloadPDF() {
     const element = document.getElementById('Marksheet_Box');
     const screenWidth = window.innerWidth + 50;
-    const screenHeight = window.innerHeight - 800;
+    const screenHeight = window.innerHeight;
     // Set options to generate a responsive PDF
     var opt = {
         margin:       0, 
