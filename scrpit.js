@@ -153,7 +153,7 @@ function findStudent() {
             <p style="position:absolute;top:281px;left:772px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:281px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_4)}</p>
             <p style="position:absolute;top:281px;left:811px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:281px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_4), student.__EMPTY_2)}</p>
+            <p style="position:absolute;top:281px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_4), student.__EMPTY_2,student.__EMPTY_3)}</p>
             <p style="position:absolute;top:281px;left:869px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:351px;left:87px;white-space:nowrap" class="ft012">2</p>
             <p style="position:absolute;top:351px;left:94px;white-space:nowrap" class="ft09">&#160;</p>
@@ -193,7 +193,7 @@ function findStudent() {
             <p style="position:absolute;top:351px;left:772px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:351px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_10)}</p>
             <p style="position:absolute;top:351px;left:811px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:351px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_10), student.__EMPTY_8)}</p>
+            <p style="position:absolute;top:351px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_10), student.__EMPTY_8,student.__EMPTY_9)}</p>
             <p style="position:absolute;top:351px;left:869px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:391px;left:87px;white-space:nowrap" class="ft012">3</p>
             <p style="position:absolute;top:391px;left:94px;white-space:nowrap" class="ft09">&#160;</p>
@@ -235,7 +235,7 @@ function findStudent() {
             <p style="position:absolute;top:391px;left:771px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:391px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_16)}</p>
             <p style="position:absolute;top:391px;left:816px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:391px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_16), student.__EMPTY_14)}</p>
+            <p style="position:absolute;top:391px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_16), student.__EMPTY_14,student.__EMPTY_15)}</p>
             <p style="position:absolute;top:391px;left:870px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:421px;left:86px;white-space:nowrap" class="ft012">4</p>
             <p style="position:absolute;top:421px;left:93px;white-space:nowrap" class="ft09">&#160;</p>
@@ -279,7 +279,7 @@ function findStudent() {
             <p style="position:absolute;top:421px;left:770px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:421px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_22)}</p>
             <p style="position:absolute;top:421px;left:811px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:421px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_22), student.__EMPTY_20)}</p>
+            <p style="position:absolute;top:421px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_22), student.__EMPTY_20,student.__EMPTY_21)}</p>
             <p style="position:absolute;top:421px;left:870px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:490px;left:87px;white-space:nowrap" class="ft012">5</p>
             <p style="position:absolute;top:490px;left:94px;white-space:nowrap" class="ft09">&#160;</p>
@@ -325,7 +325,7 @@ function findStudent() {
             <p style="position:absolute;top:490px;left:770px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:490px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_28)}</p>
             <p style="position:absolute;top:490px;left:815px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:490px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_28), student.__EMPTY_26)}</p>
+            <p style="position:absolute;top:490px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_28), student.__EMPTY_26,student.__EMPTY_27)}</p>
             <p style="position:absolute;top:490px;left:870px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:561px;left:86px;white-space:nowrap" class="ft012">6</p>
             <p style="position:absolute;top:561px;left:93px;white-space:nowrap" class="ft09">&#160;</p>
@@ -442,7 +442,7 @@ function findStudent() {
                 TOTAL&#160;&#160;GRADE&#160;P&#160;</p>
             <p style="position:absolute;top:728px;left:724px;white-space:nowrap" class="ft012">OINTS</p>
             <p style="position:absolute;top:728px;left:756px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:700px;left:784px;white-space:nowrap" class="ft012">&#160; &#160; &#160;
+            <p style="position:absolute;top:700px;left:793px;white-space:nowrap" class="ft012">&#160; &#160; &#160;
                 &#160; &#160;CGPA</p>
             <p style="position:absolute;top:700px;left:846px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:770px;left:121px;white-space:nowrap" class="ft012">${checkInputs(student.__EMPTY_5, student.__EMPTY_11,student.__EMPTY_17,student.__EMPTY_23,student.__EMPTY_29,student.__EMPTY_33,student.__EMPTY_37)}</p>
@@ -452,10 +452,10 @@ function findStudent() {
             <p style="position:absolute;top:770px;left:356px;white-space:nowrap" class="ft012">${student.Total_Credits}</p>
             <p style="position:absolute;top:770px;left:363px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:770px;left:433px;white-space:nowrap" class="ft09">${Sgpa(student.SGPA)}&#160;</p>
-            <p style="position:absolute;top:770px;left:499px;white-space:nowrap" class="ft09">0&#160;</p>
-            <p style="position:absolute;top:770px;left:592px;white-space:nowrap" class="ft09">0&#160;</p>
-            <p style="position:absolute;top:770px;left:718px;white-space:nowrap" class="ft09">0&#160;</p>
-            <p style="position:absolute;top:770px;left:836px;white-space:nowrap" class="ft09">0&#160;</p>
+            <p style="position:absolute;top:770px;left:499px;white-space:nowrap" class="ft09">-&#160;</p>
+            <p style="position:absolute;top:770px;left:592px;white-space:nowrap" class="ft09">-&#160;</p>
+            <p style="position:absolute;top:770px;left:718px;white-space:nowrap" class="ft09">-&#160;</p>
+            <p style="position:absolute;top:770px;left:836px;white-space:nowrap" class="ft09">-&#160;</p>
             <p style="position:absolute;top:792px;left:78px;white-space:nowrap" class="ft013">&#160;</p>
             <p style="position:absolute;top:813px;left:75px;white-space:nowrap" class="ft014">&#160;</p>
         </div>`
@@ -494,8 +494,8 @@ function calculateGradePoint(percentage) {
     return gradePoint;
 }
 
-function checkPassOrFail(percentage, lastMarks) {
-    if (percentage < 4.0 || lastMarks < 20) {
+function checkPassOrFail(percentage, lastMarks, grace) {
+    if (percentage < 4.0 || lastMarks+grace < 20) {
         return 'Fail';
     } else {
         return 'Pass';
@@ -520,7 +520,7 @@ function Sgpa(SGPA){
 function downloadPDF() {
     const element = document.getElementById('Marksheet_Box');
     const screenWidth = window.innerWidth + 50;
-    const screenHeight = window.innerHeight;
+    const screenHeight = window.innerHeight - 800;
     // Set options to generate a responsive PDF
     var opt = {
         margin:       0, 
