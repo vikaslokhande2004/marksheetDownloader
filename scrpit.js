@@ -151,7 +151,7 @@ function findStudent() {
             <p style="position:absolute;top:281px;left:725px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:281px;left:756px;white-space:nowrap" class="ft012">${student.__EMPTY_5}</p>
             <p style="position:absolute;top:281px;left:772px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:281px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_4, student.__EMPTY_2)}</p>
+            <p style="position:absolute;top:281px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_4, student.__EMPTY_2,student.__EMPTY_3)}</p>
             <p style="position:absolute;top:281px;left:811px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:281px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_4), student.__EMPTY_2,student.__EMPTY_3)}</p>
             <p style="position:absolute;top:281px;left:869px;white-space:nowrap" class="ft09">&#160;</p>
@@ -191,7 +191,7 @@ function findStudent() {
             <p style="position:absolute;top:351px;left:725px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:351px;left:756px;white-space:nowrap" class="ft012">${student.__EMPTY_11}</p>
             <p style="position:absolute;top:351px;left:772px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:351px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_10, student.__EMPTY_8)}</p>
+            <p style="position:absolute;top:351px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_10, student.__EMPTY_8,student.__EMPTY_9)}</p>
             <p style="position:absolute;top:351px;left:811px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:351px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_10), student.__EMPTY_8,student.__EMPTY_9)}</p>
             <p style="position:absolute;top:351px;left:869px;white-space:nowrap" class="ft09">&#160;</p>
@@ -233,7 +233,7 @@ function findStudent() {
             <p style="position:absolute;top:391px;left:725px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:391px;left:757px;white-space:nowrap" class="ft012">${student.__EMPTY_17}</p>
             <p style="position:absolute;top:391px;left:771px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:391px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_16, student.__EMPTY_14)}</p>
+            <p style="position:absolute;top:391px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_16, student.__EMPTY_14,student.__EMPTY_15)}</p>
             <p style="position:absolute;top:391px;left:816px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:391px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_16), student.__EMPTY_14,student.__EMPTY_15)}</p>
             <p style="position:absolute;top:391px;left:870px;white-space:nowrap" class="ft09">&#160;</p>
@@ -277,7 +277,7 @@ function findStudent() {
             <p style="position:absolute;top:421px;left:725px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:421px;left:757px;white-space:nowrap" class="ft012">${student.__EMPTY_23}</p>
             <p style="position:absolute;top:421px;left:770px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:421px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_22, student.__EMPTY_20)}</p>
+            <p style="position:absolute;top:421px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_22, student.__EMPTY_20,student.__EMPTY_21)}</p>
             <p style="position:absolute;top:421px;left:811px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:421px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_22), student.__EMPTY_20,student.__EMPTY_21)}</p>
             <p style="position:absolute;top:421px;left:870px;white-space:nowrap" class="ft09">&#160;</p>
@@ -323,7 +323,7 @@ function findStudent() {
             <p style="position:absolute;top:490px;left:725px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:490px;left:757px;white-space:nowrap" class="ft012">${student.__EMPTY_29}</p>
             <p style="position:absolute;top:490px;left:770px;white-space:nowrap" class="ft09">&#160;</p>
-            <p style="position:absolute;top:490px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_28, student.__EMPTY_26)}</p>
+            <p style="position:absolute;top:490px;left:799px;white-space:nowrap" class="ft012">${calculateGradePoint(student.__EMPTY_28, student.__EMPTY_26,student.__EMPTY_27)}</p>
             <p style="position:absolute;top:490px;left:815px;white-space:nowrap" class="ft09">&#160;</p>
             <p style="position:absolute;top:490px;left:846px;white-space:nowrap" class="ft012">${checkPassOrFail(calculateGradePoint(student.__EMPTY_28), student.__EMPTY_26,student.__EMPTY_27)}</p>
             <p style="position:absolute;top:490px;left:870px;white-space:nowrap" class="ft09">&#160;</p>
@@ -464,8 +464,9 @@ function findStudent() {
     }
 }
 
-function calculateGradePoint(percentage,Endsem) {
+function calculateGradePoint(percentage,endsem,grace) {
     let gradePoint = '';
+    let Endsem = endsem + grace;
 
    if (Endsem > 20) {
         if (percentage >= 91 && percentage <= 100) {
